@@ -1,0 +1,136 @@
+diff b.w oops and functional programming
+=============================================
+
+class Abc{
+	void f1(){} // method
+}
+
+
+OOPS
+=======
+1.class
+2.object
+3.encapulation
+4.inheritance
+5.abstraction
+6.polymorphism
+
+
+
+class : class is a blue print of an object. class is a group name.
+   
+What type of names can be given to class? : Fruit, Animal, Employee, Human, County
+
+What max a class can have?
+===============================
+1.properties /fields / variables
+2.methods
+3.constructors
+4.blocks
+5.inner classes
+
+1.properties /fields / variables
+=====================================
+1.instance variables
+2.static variables
+3.final variables
+4.volatile variablew
+
+
+2.methods
+===========
+1.instance
+2.static
+3.final
+4.abstract
+5.native methods
+
+
+3.constructors
+=================
+1.default constructor
+2.argument based constructor
+
+4.blocks
+===========
+1.static blocks
+2.instance blocks
+
+
+5.inner classes
+==================
+1.private inner class
+2.static inner class
+3.default inner class
+
+
+instance 
+===============
+=> data of an instance is unique to every object
+Ex: empId,EmpName,salary
+
+static
+=======
+=> data of static is sharable to all the objects
+Ex: companyName, country, mgrName
+
+usage
+=========
+-> instance methods can access instance data and static data  directly from the
+   same class
+-> static methods allow to access only static data directly from the same class
+-> static methods never allow to access non-static(instance) data directly from
+   same class or diffrent class
+
+
+Object :
+========
+Object has state and behavior
+
+1.state : variables/properties/fields of a class
+2.behavior : methods of a claass
+
+Ex: salary is state of a Object
+	setSalary() is method which can change state of a salary
+
+	details
+	=========
+	int salary=0;
+	setSalary(int salary){
+	salary=947944;
+	}
+
+   
+   bird has a name. so name  is a state
+   bird has a type. so type is state
+   canFly()
+   canEat()
+
+
+   Why obejects are needed?
+   =============================================
+   => when you wanted to access non static (instance) data from a static methods
+
+   How to create an object?
+   ============================
+   -> using 'new' operator followed by class constructor
+   -> constructor name and class name must be same
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
