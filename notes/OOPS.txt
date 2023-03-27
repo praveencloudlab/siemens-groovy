@@ -118,10 +118,23 @@ Ex: salary is state of a Object
 
    
 
+3.encapulation
+=======================
+-> wrapping of properties and methods together in the class
+-> access modifiers
+		1.public
+		2.protected
+		3.private
+
+1.public : able to access public data from any package 
+2.protected: able to access protected data from the same package and also from sub
+  classes of other packages
+4.private : able to aceess data with in the same class. 
 
 
 
-
+  com.siemence.ecart.order
+  http://www.ecart.siemence.com/order
 
 
 
