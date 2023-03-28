@@ -1,0 +1,41 @@
+<project name="MyProject" default="hello" basedir=".">
+    <!-- Include the Groovy Ant task -->
+  
+    <taskdef name="groovy" classname="org.codehaus.groovy.ant.Groovy">
+     <classpath>
+        <pathelement location="groovy-4.0.10.jar"/>
+        <pathelement location="groovy-ant-4.0.10.jar"/>
+    </classpath>
+    </taskdef>
+
+    <!-- Define a target that uses the Groovy task -->
+    <target name="hello">
+        <echo message="Running Groovy script..."/>
+        <groovy>
+            println "Hello from Groovy!"
+        </groovy>
+    </target>
+
+    <target name="current-date">
+    <echo message="Running Groovy script..."/>
+    <groovy>
+        def today = new Date()
+        println "Today's date: ${today}"
+    </groovy>
+</target>
+
+ <!-- Define a target that runs the example.groovy script -->
+    <target name="run-script">
+        <echo message="Running example.groovy..."/>
+        <groovy src="Main.groovy"/>
+    </target>
+
+<!-- Define a target that runs all Groovy scripts -->
+    <target name="run-all">
+        <antcall target="hello"/>
+        <antcall target="current-date"/>
+         <antcall target="run-script"/>
+    </target>
+
+
+</project>
