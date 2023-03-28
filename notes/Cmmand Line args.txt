@@ -1,0 +1,137 @@
+Cmmand Line args
+==========================
+In groovy command line arguments are values passed to your script when ii is executed, and they can be used to provide input dta or configuration settings
+
+
+def ar1=args[0];
+println "Argument1 is ${ar1}"
+
+===========================================================
+
+// code
+for(def arg:args){
+    println(arg)
+}
+println "no pf args passed: ${args.size()}"
+//def ar1=args[0];
+//println "Argument1 is ${ar1}"
+
+//==========================================================
+
+Working with files
+=====================
+1.Reading file
+2.Writig file
+
+
+Reading file operations
+==========================
+ def file=new File("../resources/demo.txt");
+ def contents=file.text;
+ println contents
+
+
+Creating a directory
+=======================
+  def dir=new File('../newdir')
+        dir.mkdir()
+
+
+ // list all files from this directory
+
+    def dir=new File('..')
+        def files=dir.listFiles();
+        //println(files)
+         files.each {file->println(file)}
+
+
+ Delete file /directory
+ =========================  
+
+  def file=new File('../newdir/test.txt')
+  file.delete();
+
+  Writing data to file
+  ==========================
+
+  def file=new File('../resources/demo.txt')
+  file <<" \n This is new content2 of a file \t After tab"
+  def contents=file.text;
+  println(contents);
+
+
+  Delete Directory only
+  =========================
+  def fileDir=new File('../abc')
+  fileDir.isDirectory()?fileDir.deleteDir():println("Not a directory")
+
+
+
+  Creating archives
+  =====================
+  1.Create ZIP File
+
+  def zip=new ZipOutputStream(new FileOutputStream("../target/example.zip"))
+  def file=new File('../resources/demo.txt')
+  zip.putNextEntry(new ZipEntry(file.name))
+  file.eachByte(1024){buffer,length->zip.write(buffer,0,length)}
+  zip.closeEntry()
+  zip.close()
+
+  ====================================================================
+  
+
+ 2. Reading and Parsing XML file
+ =====================================
+
+import org.w3c.dom.Document
+import org.w3c.dom.Element
+import org.w3c.dom.NodeList
+import javax.xml.parsers.DocumentBuilder
+import javax.xml.parsers.DocumentBuilderFactory;
+
+  DocumentBuilderFactory factory=DocumentBuilderFactory.newInstance();
+  DocumentBuilder builder= factory.newDocumentBuilder();
+  Document document= builder.parse(new File('../resources/test.xml'))
+  Element root= document.getDocumentElement();
+  //println(element)
+  NodeList bookNodes= root.getElementsByTagName("book")
+  //println(bookNodes)
+  // Element book=bookNodes.item(1)
+  //println(book)
+
+  for(int i=0;i<bookNodes.getLength();i++){
+    Element book=bookNodes.item(i)
+    def id=book.getElementsByTagName("id").item(0).getTextContent()
+    String title=book.getElementsByTagName("title").item(0).getTextContent()
+    String author=book.getElementsByTagName("author").item(0).getTextContent()
+
+    println(id)
+    println(title)
+    println(author)
+    println("--------------------")
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

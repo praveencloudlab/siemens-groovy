@@ -1,0 +1,13 @@
+<books xmlns="http://example.com/books">
+  <book>
+      <id>1024</id>
+      <title>Groovy</title>
+      <author>James</author>
+  </book>
+
+    <book>
+        <id>1025</id>
+        <title>Spring</title>
+        <author>Rod Jonson</author>
+    </book>
+</books>
