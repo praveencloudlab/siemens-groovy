@@ -1,4 +1,4 @@
-<project name="MyProject" default="hello" basedir=".">
+<project name="MyProject" default="run-all" basedir=".">
     <!-- Include the Groovy Ant task -->
   
     <taskdef name="groovy" classname="org.codehaus.groovy.ant.Groovy">
