@@ -53,9 +53,7 @@ static void main(String[] args) {
     println(putReq.status)
     println(putReq.data)
 
-
-
-
+    // DELETE
     def delReq= restClient.delete(path:'/products/15')
     if(delReq.status==200){
         println("deleted ")
