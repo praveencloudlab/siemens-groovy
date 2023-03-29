@@ -5,42 +5,42 @@
       "price": 120000,
       "id": 10,
       "description": "Dell Laptop",
-      "inStock":true
+      "inStock": true
     },
     {
       "id": 11,
       "name": "Tab",
       "price": 120000,
       "description": "Ipad Pro 2022",
-      "inStock":true
+      "inStock": true
     },
     {
       "id": 12,
       "name": "Mobile",
       "price": 94000,
       "description": "iPhone 13",
-      "inStock":false
+      "inStock": false
     },
     {
       "id": 13,
       "name": "keyboard",
       "price": 1300,
       "description": "Wireless",
-      "inStock":true
-    },
-    {
-      "id": 15,
-      "name": "Laptop",
-      "price": 45000,
-      "description": "Apple Mac Book Pro 512 GB",
-      "inStock":true
+      "inStock": true
     },
     {
       "id": 19,
       "name": "Samsung S23 Ultra",
       "price": 135000,
       "description": "Blue color, 256 GB",
-      "inStock":false
+      "inStock": false
+    },
+    {
+      "name": "Pen Drive",
+      "price": 2500,
+      "description": "512 GB",
+      "inStock": false,
+      "id": 200
     }
   ]
 }
