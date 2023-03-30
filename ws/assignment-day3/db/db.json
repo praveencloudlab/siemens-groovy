@@ -1,0 +1,53 @@
+{
+  "flights": [
+    {
+      "id": "1",
+      "origin": "Los Angeles",
+      "destination": "New York",
+      "departureDate": "2023-04-10",
+      "departureTime": "08:00",
+      "arrivalDate": "2023-04-10",
+      "arrivalTime": "16:30",
+      "price": 450,
+      "currency": "USD",
+      "availableSeats": 25
+    },
+    {
+      "id": "2",
+      "origin": "New York",
+      "destination": "Los Angeles",
+      "departureDate": "2023-04-11",
+      "departureTime": "14:00",
+      "arrivalDate": "2023-04-11",
+      "arrivalTime": "17:30",
+      "price": 500,
+      "currency": "USD",
+      "availableSeats": 30
+    },
+    {
+      "id": "3",
+      "origin": "London",
+      "destination": "Paris",
+      "departureDate": "2023-04-12",
+      "departureTime": "10:30",
+      "arrivalDate": "2023-04-12",
+      "arrivalTime": "12:00",
+      "price": 200,
+      "currency": "EUR",
+      "availableSeats": 50
+    }
+  ],
+  "reservations": [
+    {
+      "id": "R1",
+      "flightId": "1",
+      "passenger": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john.doe@example.com"
+      },
+      "reservationDate": "2023-03-29",
+      "status": "CONFIRMED"
+    }
+  ]
+}
