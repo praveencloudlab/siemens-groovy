@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa64bf83-1d4a-4404-8183-5ad12abd6656" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/images/advancedgrails.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/images/apple-touch-icon-retina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/images/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/images/documentation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/images/grails-cupsonly-logo-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/images/grails.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/images/skin/database_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/images/skin/database_delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/images/skin/database_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/images/skin/database_save.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/images/skin/database_table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/images/skin/exclamation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/images/skin/house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/images/skin/information.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/images/skin/sorted_asc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/images/skin/sorted_desc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/images/slack.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/images/spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/jquery-3.5.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/jquery-3.5.1.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/popper.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/errors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/grails.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/conf/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/conf/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/conf/spring/resources.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/controllers/product/application/ProductController.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/controllers/product/application/UrlMappings.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/domain/product/application/Product.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/i18n/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/i18n/messages_cs.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/i18n/messages_da.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/i18n/messages_de.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/i18n/messages_es.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/i18n/messages_fr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/i18n/messages_it.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/i18n/messages_ja.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/i18n/messages_nb.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/i18n/messages_nl.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/i18n/messages_pl.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/i18n/messages_pt_BR.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/i18n/messages_pt_PT.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/i18n/messages_ru.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/i18n/messages_sk.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/i18n/messages_sv.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/i18n/messages_th.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/i18n/messages_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/init/product/application/Application.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/init/product/application/BootStrap.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/views/error.gsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/views/index.gsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/views/notFound.gsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/views/product/create.gsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/views/product/edit.gsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/views/product/list.gsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grailsw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grailsw.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/integration-test/resources/GebConfig.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/product/application/ProductControllerSpec.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/product/application/ProductSpec.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grails-form/grails-app/conf/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../grails-form/grails-app/conf/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GrailsSDKManager">
+    <option name="grailsSDKs">
+      <map>
+        <entry key="$PROJECT_DIR$" value="$USER_HOME$/software/grails" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NlXN339R04xXSeU9anGNiKRtZa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/grails-app/views/product" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Micronaut.Application">
+    <configuration name="Grails: product-application" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="$PROJECT_DIR$" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="MicronautRunConfigurationType" factoryName="Micronaut" temporary="true" nameIsGenerated="true">
+      <module name="product-application.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="product.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="alternativeJrePath" value="" />
+      <option name="alternativeJrePathEnabled" value="false" />
+      <option name="includeProvidedScope" value="true" />
+      <option name="mainClass" value="product.application.Application" />
+      <option name="passParentEnvs" value="true" />
+      <option name="programParameters" value="" />
+      <option name="shortenCommandLine" />
+      <option name="vmParameters" value="" />
+      <option name="workingDirectory" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Micronaut.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa64bf83-1d4a-4404-8183-5ad12abd6656" name="Changes" comment="" />
+      <created>1680239600927</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680239600927</updated>
+      <workItem from="1680239602184" duration="5670000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TraitInjectorService">
+    <option name="state">
+      <map>
+        <entry key="product-application.integrationTest">
+          <value>
+            <StateHolder>
+              <option name="knownFactories">
+                <list>
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/converters/4.0.0/e364097f5e6f78fd102519c162442f4eeb0a5f42/converters-4.0.0.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/5.3.2/b10dd900e8ba7215c80a60bee1334b0f0a2af270/grails-web-url-mappings-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/5.3.2/639c30940d8ebd7104971893de36c721c9a02c86/grails-plugin-controllers-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/7.3.0/d4954a823a1c7f98d5126dd9a2cadb3c6b20101d/hibernate5-7.3.0-plain.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/5.3.2/b10dd900e8ba7215c80a60bee1334b0f0a2af270/grails-web-url-mappings-5.3.2.jar!/META-INF/services/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-core/5.3.2/50016cb8a14a6d5593600ee675c48dac5c31adbb/grails-core-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/5.3.2/20a67792de873b412f56b3d806cc935a66349fcb/grails-web-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-databinding/5.3.2/fc9a489d71210046629605d3953d48caeff67108/grails-web-databinding-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-validation/5.3.2/54ef22130635362bbfddc20d4d2cf4156b1c960c/grails-plugin-validation-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-domain-class/5.3.2/bef59ddd9fb031fbd35dae2eb4f5c77dd9b09425/grails-plugin-domain-class-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-support/7.3.3/c92b509f2e07290307e92833375c8c004597f9bb/grails-datastore-gorm-support-7.3.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/5.3.2/f25bb6ac7b2a61869ca98c545273cff14090c987/grails-plugin-codecs-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/5.3.2/1eeb8a6f16496828df71e44b994841fb1299efcf/grails-plugin-services-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/gsp/5.2.1/4c9193f6cd1ea77c9288487e3cb64de62209e6d5/gsp-5.2.1-plain.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-taglib/5.2.1/109e93a383b5302bed34ebbf458fe40d744b6d66/grails-taglib-5.2.1.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-taglib/5.2.1/9c036730eb2bbb314559fcc1b271d34ac37f7362/grails-web-taglib-5.2.1.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-rest/5.3.2/2aa0b83ff8e0a8757feaa58f7bdc78d6109c3104/grails-plugin-rest-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/5.3.2/480c4377b6b480a6e473da93f8eee61187a35fbe/grails-web-common-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-interceptors/5.3.2/d548b5414fb9d825d8b526acb55a00eb2821fadd/grails-plugin-interceptors-5.3.2.jar!/META-INF/grails.factories" />
+                </list>
+              </option>
+              <option name="traits">
+                <map>
+                  <entry key="Controller">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.Controller" />
+                        <option value="grails.artefact.gsp.TagLibraryInvoker" />
+                        <option value="grails.artefact.controller.RestResponder" />
+                        <option value="org.grails.compiler.web.converters.RenderConverterTrait" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="Domain">
+                    <value>
+                      <list>
+                        <option value="grails.web.databinding.WebDataBinding" />
+                        <option value="grails.artefact.DomainClass" />
+                        <option value="grails.gorm.Entity" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="Interceptor">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.Interceptor" />
+                        <option value="org.grails.compiler.web.converters.RenderConverterTrait" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="TagLib">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.TagLibrary" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="TagLibrary">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.TagLibrary" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </StateHolder>
+          </value>
+        </entry>
+        <entry key="product-application.main">
+          <value>
+            <StateHolder>
+              <option name="knownFactories">
+                <list>
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/converters/4.0.0/e364097f5e6f78fd102519c162442f4eeb0a5f42/converters-4.0.0.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/5.3.2/b10dd900e8ba7215c80a60bee1334b0f0a2af270/grails-web-url-mappings-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/5.3.2/639c30940d8ebd7104971893de36c721c9a02c86/grails-plugin-controllers-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/7.3.0/d4954a823a1c7f98d5126dd9a2cadb3c6b20101d/hibernate5-7.3.0-plain.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/5.3.2/b10dd900e8ba7215c80a60bee1334b0f0a2af270/grails-web-url-mappings-5.3.2.jar!/META-INF/services/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-core/5.3.2/50016cb8a14a6d5593600ee675c48dac5c31adbb/grails-core-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/5.3.2/20a67792de873b412f56b3d806cc935a66349fcb/grails-web-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-databinding/5.3.2/fc9a489d71210046629605d3953d48caeff67108/grails-web-databinding-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-validation/5.3.2/54ef22130635362bbfddc20d4d2cf4156b1c960c/grails-plugin-validation-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-domain-class/5.3.2/bef59ddd9fb031fbd35dae2eb4f5c77dd9b09425/grails-plugin-domain-class-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-support/7.3.3/c92b509f2e07290307e92833375c8c004597f9bb/grails-datastore-gorm-support-7.3.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/5.3.2/f25bb6ac7b2a61869ca98c545273cff14090c987/grails-plugin-codecs-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/5.3.2/1eeb8a6f16496828df71e44b994841fb1299efcf/grails-plugin-services-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/gsp/5.2.1/4c9193f6cd1ea77c9288487e3cb64de62209e6d5/gsp-5.2.1-plain.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-taglib/5.2.1/109e93a383b5302bed34ebbf458fe40d744b6d66/grails-taglib-5.2.1.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-taglib/5.2.1/9c036730eb2bbb314559fcc1b271d34ac37f7362/grails-web-taglib-5.2.1.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-rest/5.3.2/2aa0b83ff8e0a8757feaa58f7bdc78d6109c3104/grails-plugin-rest-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/5.3.2/480c4377b6b480a6e473da93f8eee61187a35fbe/grails-web-common-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-interceptors/5.3.2/d548b5414fb9d825d8b526acb55a00eb2821fadd/grails-plugin-interceptors-5.3.2.jar!/META-INF/grails.factories" />
+                </list>
+              </option>
+              <option name="traits">
+                <map>
+                  <entry key="Controller">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.Controller" />
+                        <option value="grails.artefact.gsp.TagLibraryInvoker" />
+                        <option value="grails.artefact.controller.RestResponder" />
+                        <option value="org.grails.compiler.web.converters.RenderConverterTrait" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="Domain">
+                    <value>
+                      <list>
+                        <option value="grails.web.databinding.WebDataBinding" />
+                        <option value="grails.artefact.DomainClass" />
+                        <option value="grails.gorm.Entity" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="Interceptor">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.Interceptor" />
+                        <option value="org.grails.compiler.web.converters.RenderConverterTrait" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="TagLib">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.TagLibrary" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="TagLibrary">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.TagLibrary" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </StateHolder>
+          </value>
+        </entry>
+        <entry key="product-application.test">
+          <value>
+            <StateHolder>
+              <option name="knownFactories">
+                <list>
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/converters/4.0.0/e364097f5e6f78fd102519c162442f4eeb0a5f42/converters-4.0.0.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/5.3.2/b10dd900e8ba7215c80a60bee1334b0f0a2af270/grails-web-url-mappings-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/5.3.2/639c30940d8ebd7104971893de36c721c9a02c86/grails-plugin-controllers-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/7.3.0/d4954a823a1c7f98d5126dd9a2cadb3c6b20101d/hibernate5-7.3.0-plain.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/5.3.2/b10dd900e8ba7215c80a60bee1334b0f0a2af270/grails-web-url-mappings-5.3.2.jar!/META-INF/services/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-core/5.3.2/50016cb8a14a6d5593600ee675c48dac5c31adbb/grails-core-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/5.3.2/20a67792de873b412f56b3d806cc935a66349fcb/grails-web-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-databinding/5.3.2/fc9a489d71210046629605d3953d48caeff67108/grails-web-databinding-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-validation/5.3.2/54ef22130635362bbfddc20d4d2cf4156b1c960c/grails-plugin-validation-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-domain-class/5.3.2/bef59ddd9fb031fbd35dae2eb4f5c77dd9b09425/grails-plugin-domain-class-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-support/7.3.3/c92b509f2e07290307e92833375c8c004597f9bb/grails-datastore-gorm-support-7.3.3.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/5.3.2/f25bb6ac7b2a61869ca98c545273cff14090c987/grails-plugin-codecs-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/5.3.2/1eeb8a6f16496828df71e44b994841fb1299efcf/grails-plugin-services-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/gsp/5.2.1/4c9193f6cd1ea77c9288487e3cb64de62209e6d5/gsp-5.2.1-plain.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-taglib/5.2.1/109e93a383b5302bed34ebbf458fe40d744b6d66/grails-taglib-5.2.1.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-taglib/5.2.1/9c036730eb2bbb314559fcc1b271d34ac37f7362/grails-web-taglib-5.2.1.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-rest/5.3.2/2aa0b83ff8e0a8757feaa58f7bdc78d6109c3104/grails-plugin-rest-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/5.3.2/480c4377b6b480a6e473da93f8eee61187a35fbe/grails-web-common-5.3.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-interceptors/5.3.2/d548b5414fb9d825d8b526acb55a00eb2821fadd/grails-plugin-interceptors-5.3.2.jar!/META-INF/grails.factories" />
+                </list>
+              </option>
+              <option name="traits">
+                <map>
+                  <entry key="Controller">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.Controller" />
+                        <option value="grails.artefact.gsp.TagLibraryInvoker" />
+                        <option value="grails.artefact.controller.RestResponder" />
+                        <option value="org.grails.compiler.web.converters.RenderConverterTrait" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="Domain">
+                    <value>
+                      <list>
+                        <option value="grails.web.databinding.WebDataBinding" />
+                        <option value="grails.artefact.DomainClass" />
+                        <option value="grails.gorm.Entity" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="Interceptor">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.Interceptor" />
+                        <option value="org.grails.compiler.web.converters.RenderConverterTrait" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="TagLib">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.TagLibrary" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="TagLibrary">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.TagLibrary" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </StateHolder>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/product_application$Application.ic" NAME="Application Coverage Results" MODIFIED="1680241989047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>product.application.*</FILTER>
+    </SUITE>
+  </component>
+</project>
